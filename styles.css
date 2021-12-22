@@ -1,0 +1,83 @@
+body {
+    background: #B1D0E0;
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #041C32;
+    background-position: center;
+    text-align: center;
+}
+h1, h2, h3 {
+    background-position: center;
+    text-align: center;
+    font-size: 48px;
+    margin: 15px;
+}
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+.ortala {
+    background-position: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerMenu {
+    background-position: center;
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+}
+.headerMenu ul{
+    list-style-type: none;
+}
+.headerMenu li {
+    display: inline-block;
+    height: 55px;
+    padding-top: 5px;
+    padding-inline: 10px;
+}
+.headerMenu a {
+    color: #DBE6FD;
+    text-decoration: none;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {    
+    display: flex;
+    margin: 0px auto;
+    width: 650px;
+}
+
+.item {
+    flex-basis: 100px;
+    margin: 5px;
+}
+img{
+    border-radius: 25px;
+    border: #064663;
+    border-style: solid;
+}
+
+/*
+    https://colorhunt.co/
+    https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headers
+    https://stackoverflow.com/questions/11400510/css-centered-divs-side-by-side
+    https://www.techboxweb.com/top-5-ways-to-display-two-div-side-by-side-using-css/
+    https://jsfiddle.net/K2fpA/ 
+*/
